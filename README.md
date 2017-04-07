@@ -1,17 +1,17 @@
-#Bounce Circle Loading Animation
+# Bounce Circle Loading Animation
 
 A cool bounce circle loading animation inspired by [this post](http://www.materialup.com/posts/loading-interface) on [MaterialUp](http://www.materialup.com/)
 
 ![ezgif com-video-to-gif 9](https://cloud.githubusercontent.com/assets/15737675/16545557/a1a44c5c-412e-11e6-8737-25023a32403c.gif) ![ezgif com-video-to-gif 10](https://cloud.githubusercontent.com/assets/15737675/16545576/8409b1f4-412f-11e6-920c-8ff14ea1aa60.gif)
 ![ezgif com-video-to-gif 11](https://cloud.githubusercontent.com/assets/15737675/16545595/0161c83a-4130-11e6-8383-303ea6a4b4d5.gif) ![ezgif com-video-to-gif 12](https://cloud.githubusercontent.com/assets/15737675/16545735/6e0cdcc8-4134-11e6-91bb-8751d11a4314.gif)
-##How to
-####Gradle
+## How to
+#### Gradle
 ```Gradle
 dependencies {
     compile 'com.tbuonomo.andrui:bounceloading:1.0.0'
 }
 ```
-####In your XML layout
+#### In your XML layout
 ```Xml
 <com.tbuonomo.bounceloading.BounceCircleLoading
     android:layout_width="70dp"
@@ -23,7 +23,7 @@ dependencies {
     app:interpolator="anticipate_overshoot"
     app:animationDuration="800"/>
 ```
-####Attributes
+#### Attributes
 | Attribute | Description |
 | --- | --- |
 | `pointColor` | Color of the points |
@@ -32,7 +32,7 @@ dependencies {
 | `interpolator` | The interpolator to use for the points animation (by default `fastOutSlowIn`) |
 | `animationDuration` | Step duration of the animation in ms (by default 700) |
 
-##License
+## License
     Copyright 2016 Tommy Buonomo
     
     Licensed under the Apache License, Version 2.0 (the "License");
